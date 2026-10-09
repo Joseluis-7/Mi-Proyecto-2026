@@ -1,0 +1,117 @@
+21:45:36.164 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @CrearUsuario
+21:45:37.627 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:45:39.213 [pool-2-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+21:45:39.601 [pool-2-thread-1] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 34
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.4.1)
+1 > Accept-Encoding: gzip,deflate
+{"name":"morpheus","job":"leader"}
+
+21:45:40.597 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 988
+1 < 201
+1 < Date: Wed, 07 Oct 2026 02:45:33 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 490
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Cache-Control: no-store
+1 < Cross-Origin-Opener-Policy: same-origin
+1 < Cross-Origin-Resource-Policy: cross-origin
+1 < Etag: W/"1ea-GjC+s49/tvCJaeUjJlAYFJ6kVk0"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Origin-Agent-Cluster: ?1
+1 < Ratelimit-Limit: 20
+1 < Ratelimit-Policy: 20;w=60
+1 < Ratelimit-Remaining: 19
+1 < Ratelimit-Reset: 60
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=kmL7Yc5YrXLzQAz5jYitBFUFQBpL8asrzLUayqfE59Q%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1791341133"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=kmL7Yc5YrXLzQAz5jYitBFUFQBpL8asrzLUayqfE59Q%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1791341133"
+1 < Server: cloudflare
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains
+1 < Via: 1.1 heroku-router
+1 < X-Content-Type-Options: nosniff
+1 < X-Dns-Prefetch-Control: off
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: DENY
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-Powered-By: ReqRes.in - Deploy backends in 30 seconds
+1 < X-Ratelimit-Limit: 40
+1 < X-Ratelimit-Remaining: 31
+1 < X-Ratelimit-Reset: 1791417600
+1 < X-Reqres-Docs: https://reqres.in
+1 < X-Reqres-Message: This API is powered by ReqRes. Deploy your own backend in 30 seconds!
+1 < X-Reqres-Templates: https://app.reqres.in/templates
+1 < X-Reqres-Tip: Create your own backend with persistent data - app.reqres.in/dashboard
+1 < X-Reqres-Upgrade: https://app.reqres.in/upgrade
+1 < X-Request-Id: 337a8923-22f1-e9b2-c60a-dd6f8738b84a
+1 < X-Robots-Tag: noindex, nofollow
+1 < X-Xss-Protection: 0
+1 < cf-cache-status: DYNAMIC
+1 < CF-RAY: a46992041df1de5e-EZE
+{"name":"morpheus","job":"leader","id":"89","createdAt":"2026-10-07T02:45:33.807Z","_meta":{"powered_by":"ReqRes","docs_url":"https://app.reqres.in/documentation","upgrade_url":"https://app.reqres.in/upgrade","example_url":"https://app.reqres.in/examples/notes-app","variant":"v1_b","message":"This is a read-only demo endpoint. Sign up to create your own collections with full CRUD and auth.","cta":{"label":"Get started","url":"https://app.reqres.in/upgrade"},"context":"legacy_success"}}
+
+21:45:41.463 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:examples/users/users.feature
+21:45:41.757 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @CrearUsuario
+21:45:41.773 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:45:41.894 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:45:41.903 [main] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 34
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.4.1)
+1 > Accept-Encoding: gzip,deflate
+{"name":"morpheus","job":"leader"}
+
+21:45:42.564 [main] DEBUG com.intuit.karate - response time in milliseconds: 660
+1 < 201
+1 < Date: Wed, 07 Oct 2026 02:45:35 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 491
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Cache-Control: no-store
+1 < Cross-Origin-Opener-Policy: same-origin
+1 < Cross-Origin-Resource-Policy: cross-origin
+1 < Etag: W/"1eb-D99dNAf1x3aqsXi8BAsVF59Rp2s"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Origin-Agent-Cluster: ?1
+1 < Ratelimit-Limit: 20
+1 < Ratelimit-Policy: 20;w=60
+1 < Ratelimit-Remaining: 19
+1 < Ratelimit-Reset: 60
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=M%2F3mRppmQFrioP2hSOjs0EpFrjkUYJRQvXjDC0mqtsQ%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1791341135"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=M%2F3mRppmQFrioP2hSOjs0EpFrjkUYJRQvXjDC0mqtsQ%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1791341135"
+1 < Server: cloudflare
+1 < Strict-Transport-Security: max-age=31536000; includeSubDomains
+1 < Via: 1.1 heroku-router
+1 < X-Content-Type-Options: nosniff
+1 < X-Dns-Prefetch-Control: off
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: DENY
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-Powered-By: ReqRes.in - Deploy backends in 30 seconds
+1 < X-Ratelimit-Limit: 40
+1 < X-Ratelimit-Remaining: 30
+1 < X-Ratelimit-Reset: 1791417600
+1 < X-Reqres-Docs: https://reqres.in
+1 < X-Reqres-Message: This API is powered by ReqRes. Deploy your own backend in 30 seconds!
+1 < X-Reqres-Templates: https://app.reqres.in/templates
+1 < X-Reqres-Tip: Need more than /api/users? Build custom collections - app.reqres.in/dashboard
+1 < X-Reqres-Upgrade: https://app.reqres.in/upgrade
+1 < X-Request-Id: ac222a01-3b3d-4e8e-9d13-54b2a3798e12
+1 < X-Robots-Tag: noindex, nofollow
+1 < X-Xss-Protection: 0
+1 < cf-cache-status: DYNAMIC
+1 < CF-RAY: a46992109c032376-EZE
+{"name":"morpheus","job":"leader","id":"492","createdAt":"2026-10-07T02:45:35.803Z","_meta":{"powered_by":"ReqRes","docs_url":"https://app.reqres.in/documentation","upgrade_url":"https://app.reqres.in/upgrade","example_url":"https://app.reqres.in/examples/notes-app","variant":"v1_b","message":"This is a read-only demo endpoint. Sign up to create your own collections with full CRUD and auth.","cta":{"label":"Get started","url":"https://app.reqres.in/upgrade"},"context":"legacy_success"}}
+
